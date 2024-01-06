@@ -1,0 +1,21 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vertical Lines -->
+  <g stroke="#000" stroke-opacity="0.5">
+    <!-- Generating 40 vertical lines -->
+    <!-- Each line is separated by 20 units -->
+    <line x1="20" y1="0" x2="20" y2="800" stroke-width="1"/>
+    <line x1="40" y1="0" x2="40" y2="800" stroke-width="1"/>
+    <!-- ... Repeat for the remaining lines ... -->
+    <!-- The last line will be at x="780" -->
+  </g>
+
+  <!-- Horizontal Lines -->
+  <g stroke="#000" stroke-opacity="0.5">
+    <!-- Generating 40 horizontal lines -->
+    <!-- Each line is separated by 20 units -->
+    <line x1="0" y1="20" x2="800" y2="20" stroke-width="1"/>
+    <line x1="0" y1="40" x2="800" y2="40" stroke-width="1"/>
+    <!-- ... Repeat for the remaining lines ... -->
+    <!-- The last line will be at y="780" -->
+  </g>
+</svg>

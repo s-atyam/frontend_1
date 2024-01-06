@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.grid_background{
+    background: linear-gradient(to right, rgb(242, 232, 255) 1px, transparent 1px) ,linear-gradient(to bottom, rgb(242, 232, 255) 1px, transparent 1px) ;
+    background-size: 13px 13px;
+}
+.flex_center{
+    @apply flex justify-center items-center
+}
+.flex_between{
+    @apply flex justify-around items-center
+}
+.main_contain{
+    @apply w-screen h-fit
+}
+.badge{
+    @apply bg-gray-100 rounded-full w-fit h-fit px-2 py-1 mx-2 my-1 text-gray-700 border 
+}
+.content_box{
+    @apply w-11/12 h-fit
+}
+.btn_icon{
+    @apply flex justify-center items-center rounded-md
+}
+.menus{
+    @apply cursor-pointer w-fit px-1 text-sm py-1
+}
+.menus:hover{
+    @apply bg-gray-200 rounded-full
+}
+.heading1{
+    @apply text-3xl sm:text-5xl text-center mx-3 mt-7 py-2
+}
+.heading2{
+    @apply text-2xl sm:text-3xl text-center mx-3 mt-7 py-2
+}
+.heading3{
+    @apply text-base sm:text-xl text-center mx-3 mt-7 py-2
+}
+.small_head{
+    @apply text-sm text-purple-900 mx-3 mt-10
+}
+.para1{
+    @apply mx-3 text-center text-gray-500 text-sm mt-6
+}
+.para2{
+    @apply mx-3 text-center text-gray-500 text-xs my-2
+}
+.footLink{
+    @apply cursor-pointer text-xs my-4 text-gray-800
+}
+.footLink:hover{
+    @apply text-gray-600
+}
